@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lahore Dental Clinic - Professional Dental Care</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service {
+            flex: 1 1 300px;
+            margin: 10px;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .testimonials {
+            background: #f9f9f9;
+        }
+        .testimonial {
+            margin: 20px 0;
+            font-style: italic;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>Lahore Dental Clinic</h2>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Lahore Dental Clinic</h1>
+        <p>Your trusted partner for comprehensive dental care in Lahore, Punjab.</p>
+        <a href="#contact" style="background: white; color: #007bff; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Schedule an Appointment</a>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>General Dentistry</h3>
+                <p>Routine check-ups, cleanings, and fillings to maintain your oral health.</p>
+            </div>
+            <div class="service">
+                <h3>Cosmetic Dentistry</h3>
+                <p>Teeth whitening, veneers, and smile makeovers for a confident smile.</p>
+            </div>
+            <div class="service">
+                <h3>Orthodontics</h3>
+                <p>Braces and aligners to straighten teeth and correct bites.</p>
+            </div>
+            <div class="service">
+                <h3>Oral Surgery</h3>
+                <p>Extractions, implants, and other surgical procedures.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>Lahore Dental Clinic is dedicated to providing high-quality dental care with a focus on patient comfort and satisfaction. Our experienced team uses the latest technology to ensure the best outcomes for your dental health.</p>
+        <p>Located in Lahore, Punjab, we serve patients from all over the region. Our dentist, Dr. Ahmed Khan, has over 15 years of experience in the field.</p>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+        <h2>Patient Testimonials</h2>
+        <div class="testimonial">
+            <p>"The best dental experience I've ever had! The staff is friendly and professional." - Sarah A.</p>
+        </div>
+        <div class="testimonial">
+            <p>"Dr. Khan fixed my smile perfectly. Highly recommend!" - Muhammad R.</p>
+        </div>
+        <!-- Add more testimonials or embed videos if possible -->
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Address: 123 Main Street, Lahore, Punjab, Pakistan</p>
+        <p>Phone: +92 42 1234567</p>
+        <p>Email: info@lahoredentalclinic.com</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Lahore Dental Clinic. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
